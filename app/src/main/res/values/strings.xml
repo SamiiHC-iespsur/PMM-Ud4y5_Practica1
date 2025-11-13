@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">Ud4&amp;5_Ej1</string>
+    <string name="app_name">SamiiUd4y5</string>
+    <string name="main_title">Sami de las Heras Cózar</string>
+    <string name="ej1_btn_text">Ejercicio 1</string>
+    <string name="ej2_btn_text">Ejercicio 2</string>
+    <string name="ej3_btn_text">Ejercicio 3</string>
+    <string name="ej4_btn_text">Ejercicio 4</string>
+    <string name="ej5_btn_text">Ejercicio 5</string>
 </resources>

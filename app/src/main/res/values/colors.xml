@@ -2,4 +2,11 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Exercise colors -->
+    <color name="color_red">#F44336</color>
+    <color name="color_orange">#FF9800</color>
+    <color name="color_yellow">#FFEB3B</color>
+    <color name="color_green">#4CAF50</color>
+    <color name="color_blue">#2196F3</color>
 </resources>
