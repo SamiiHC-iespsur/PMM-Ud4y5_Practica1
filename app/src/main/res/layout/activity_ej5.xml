@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <!-- Top Navigation Menu -->
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:background="@color/color_blue"
+        android:gravity="center"
+        android:elevation="4dp">
+
+        <Button
+            android:id="@+id/btn_nav_all"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ej5_nav_tasks"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:layout_marginEnd="8dp"
+            android:padding="10dp"
+            android:minWidth="90dp"
+            android:maxWidth="110dp" />
+
+        <Button
+            android:id="@+id/btn_nav_completed"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ej5_nav_completed"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:layout_marginEnd="8dp"
+            android:padding="10dp"
+            android:minWidth="90dp"
+            android:maxWidth="130dp" />
+
+        <Button
+            android:id="@+id/btn_nav_pending"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ej5_nav_pending"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:minWidth="90dp"
+            android:maxWidth="120dp" />
+    </LinearLayout>
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/tv_section_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ej5_app_name"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/color_blue"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Add Task Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/et_new_task"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/ej5_hint_new_task"
+            android:inputType="text"
+            android:autofillHints="taskName"
+            android:backgroundTint="@color/color_blue"
+            android:textColorHint="#757575"
+            android:padding="12dp"
+            android:layout_marginEnd="12dp"
+            android:minWidth="200dp"
+            android:maxWidth="220dp" />
+
+        <Button
+            android:id="@+id/btn_add_task"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/color_blue"
+            android:minWidth="120dp"
+            android:padding="12dp"
+            android:text="@string/ej5_btn_add"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <!-- Divider -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/color_blue"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Empty State Message -->
+    <TextView
+        android:id="@+id/tv_empty_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ej5_empty_all"
+        android:textSize="16sp"
+        android:textColor="#757575"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:visibility="visible" />
+
+    <!-- Task List -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/ej5_task_list_scroll"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:id="@+id/ll_task_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:divider="@android:color/transparent"
+            android:showDividers="middle"
+            android:dividerHeight="12dp" />
+    </ScrollView>
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ej5_btn_save"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/color_blue"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="16dp"
+        android:padding="16dp"
+        android:minWidth="200dp"
+        android:maxWidth="280dp"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
