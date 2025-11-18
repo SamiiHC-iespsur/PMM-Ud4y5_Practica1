@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
 
         // Wire buttons programmatically to avoid missing-method lint warnings
         findViewById<Button>(R.id.btn_ej1).setOnClickListener { openActivityByName("activity_ej1") }
-        findViewById<Button>(R.id.btn_ej2).setOnClickListener { openActivityByName("activity_ej2") }
+        findViewById<Button>(R.id.btn_ej2).setOnClickListener { openActivityByName("ActivityEj2") }
         findViewById<Button>(R.id.btn_ej3).setOnClickListener { openActivityByName("activity_ej3") }
         findViewById<Button>(R.id.btn_ej4).setOnClickListener { openActivityByName("activity_ej4") }
         findViewById<Button>(R.id.btn_ej5).setOnClickListener { openActivityByName("activity_ej5") }
