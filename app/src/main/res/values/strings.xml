@@ -26,4 +26,12 @@
     <string name="ej3_task_added">Tarea agregada</string>
     <string name="ej3_task_deleted">Tarea eliminada</string>
     <string name="ej3_task_list_scroll">Lista de tareas desplazable</string>
+  
+  <!-- Exercise 1 strings -->
+    <string name="ej1_textfield_nombre_hint">Nombre</string>
+    <string name="ej1_title">Ejercicio 1: Formulario Básico</string>
+    <string name="ej1_btn_submit_text">Enviar</string>
+    <string name="ej1_email_hint">Correo electrónico</string>
+    <string name="ej1_error_empty_fields">Por favor, rellena todos los campos.</string>
+    <string name="ej1_success_message">Formulario enviado.</string>
 </resources>
