@@ -6,4 +6,10 @@
     <string name="ej3_btn_text">Ejercicio 3</string>
     <string name="ej4_btn_text">Ejercicio 4</string>
     <string name="ej5_btn_text">Ejercicio 5</string>
+    <string name="ej1_textfield_nombre_hint">Nombre</string>
+    <string name="ej1_title">Ejercicio 1: Formulario Básico</string>
+    <string name="ej1_btn_submit_text">Enviar</string>
+    <string name="ej1_email_hint">Correo electrónico</string>
+    <string name="ej1_error_empty_fields">Por favor, rellena todos los campos.</string>
+    <string name="ej1_success_message">Formulario enviado.</string>
 </resources>
