@@ -1,30 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:gravity="center"
+    android:showDividers="middle"
+    android:divider="@android:color/transparent"
+    android:dividerHeight="32dp"
+    tools:context=".MainActivity"
+    android:background="@android:color/white">
 
-    <!-- Campo de texto de nombre -->
-    <EditText
-        android:layout_width="0dp"
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Nombre"
-        app:layout_constraintTop_toBottomOf="@id/main"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintWidth_percent="0.8"/>
+        android:text="@string/main_title"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="48dp" />
 
-    <EditText
-        android:layout_width="0dp"
+    <Button
+        android:id="@+id/btn_ej1"
+        android:layout_width="280dp"
         android:layout_height="wrap_content"
-        android:hint="Correo Electrónico"
-        app:layout_constraintTop_toBottomOf="@id/main"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintWidth_percent="0.8"
-        android:layout_marginTop="16dp"/>
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="@color/color_red"
+        android:text="@string/ej1_btn_text"
+        android:textColor="@color/black" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/btn_ej2"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/color_orange"
+        android:textColor="@color/black"
+        android:text="@string/ej2_btn_text"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btn_ej3"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/color_yellow"
+        android:textColor="@color/black"
+        android:text="@string/ej3_btn_text"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btn_ej4"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="@color/color_green"
+        android:text="@string/ej4_btn_text"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btn_ej5"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/color_blue"
+        android:text="@string/ej5_btn_text"
+        android:textColor="@color/black" />
+
+</LinearLayout>

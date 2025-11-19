@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/tv_ej3_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp"
+        android:text="@string/ej3_title"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:background="@color/white">
+
+        <EditText
+            android:id="@+id/et_new_task"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="200dp"
+            android:maxWidth="250dp"
+            android:hint="@string/ej3_hint_task"
+            android:inputType="text"
+            android:autofillHints="taskName"
+            android:backgroundTint="@color/color_yellow"
+            android:textColorHint="#757575"
+            android:padding="12dp"
+            android:layout_marginEnd="12dp" />
+
+        <Button
+            android:id="@+id/btn_add_task"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ej3_btn_add"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/color_yellow"
+            android:textColor="@color/black"
+            android:minWidth="120dp"
+            android:padding="12dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/color_yellow"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tv_empty_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ej3_empty_list"
+        android:textSize="16sp"
+        android:textColor="#757575"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:visibility="visible" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/ej3_task_list_scroll"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:id="@+id/ll_task_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:divider="@android:color/transparent"
+            android:showDividers="middle"
+            android:dividerHeight="8dp"
+            android:background="@color/white" />
+    </ScrollView>
+
+</LinearLayout>
