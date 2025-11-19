@@ -22,6 +22,12 @@
         <activity
             android:name=".ActivityEj2"
             android:exported="false" />
+
+        <!-- Activity for exercise 1: basic form -->
+        <activity
+            android:name=".ActivityEj1"
+            android:exported="false" />
+
     </application>
 
 </manifest>
