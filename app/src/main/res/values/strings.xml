@@ -17,4 +17,31 @@
     <string name="ej4_section_settings">Has seleccionado: Configuración</string>
     <string name="ej4_welcome">Bienvenido</string>
     <string name="ej4_welcome_message">Selecciona una opción del menú</string>
+    <!-- Exercise 2 strings -->
+    <string name="ej2_q_fav_color">¿Cuál es tu color favorito?</string>
+    <string name="ej2_hint_color">Introduce tu color favorito</string>
+    <string name="ej2_cb_blue">¿Te gusta el color azul?</string>
+    <string name="ej2_q_green">¿Te gusta el color verde?</string>
+    <string name="ej2_rb_yes">Sí</string>
+    <string name="ej2_rb_no">No</string>
+    <string name="ej2_btn_send">Enviar</string>
+
+    <!-- Exercise 3 strings -->
+    <string name="ej3_title">Lista de Tareas</string>
+    <string name="ej3_hint_task">Escribe una nueva tarea</string>
+    <string name="ej3_btn_add">Agregar</string>
+    <string name="ej3_btn_delete">Eliminar</string>
+    <string name="ej3_empty_list">No hay tareas. ¡Agrega una!</string>
+    <string name="ej3_error_empty">Por favor, escribe una tarea</string>
+    <string name="ej3_task_added">Tarea agregada</string>
+    <string name="ej3_task_deleted">Tarea eliminada</string>
+    <string name="ej3_task_list_scroll">Lista de tareas desplazable</string>
+  
+  <!-- Exercise 1 strings -->
+    <string name="ej1_textfield_nombre_hint">Nombre</string>
+    <string name="ej1_title">Ejercicio 1: Formulario Básico</string>
+    <string name="ej1_btn_submit_text">Enviar</string>
+    <string name="ej1_email_hint">Correo electrónico</string>
+    <string name="ej1_error_empty_fields">Por favor, rellena todos los campos.</string>
+    <string name="ej1_success_message">Formulario enviado.</string>
 </resources>
