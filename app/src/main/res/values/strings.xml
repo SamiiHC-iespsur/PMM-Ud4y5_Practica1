@@ -15,6 +15,17 @@
     <string name="ej2_rb_yes">Sí</string>
     <string name="ej2_rb_no">No</string>
     <string name="ej2_btn_send">Enviar</string>
+
+    <!-- Exercise 3 strings -->
+    <string name="ej3_title">Lista de Tareas</string>
+    <string name="ej3_hint_task">Escribe una nueva tarea</string>
+    <string name="ej3_btn_add">Agregar</string>
+    <string name="ej3_btn_delete">Eliminar</string>
+    <string name="ej3_empty_list">No hay tareas. ¡Agrega una!</string>
+    <string name="ej3_error_empty">Por favor, escribe una tarea</string>
+    <string name="ej3_task_added">Tarea agregada</string>
+    <string name="ej3_task_deleted">Tarea eliminada</string>
+    <string name="ej3_task_list_scroll">Lista de tareas desplazable</string>
   
   <!-- Exercise 1 strings -->
     <string name="ej1_textfield_nombre_hint">Nombre</string>
