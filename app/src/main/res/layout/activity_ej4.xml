@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <!-- Top Navigation Menu -->
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:background="@color/color_green"
+        android:gravity="center"
+        android:elevation="4dp">
+
+        <Button
+            android:id="@+id/btn_nav_home"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ej4_btn_home"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:layout_marginEnd="8dp"
+            android:padding="12dp"
+            android:minWidth="100dp"
+            android:maxWidth="120dp" />
+
+        <Button
+            android:id="@+id/btn_nav_profile"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ej4_btn_profile"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:layout_marginEnd="8dp"
+            android:padding="12dp"
+            android:minWidth="100dp"
+            android:maxWidth="120dp" />
+
+        <Button
+            android:id="@+id/btn_nav_settings"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ej4_btn_settings"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:padding="12dp"
+            android:minWidth="100dp"
+            android:maxWidth="140dp" />
+    </LinearLayout>
+
+    <!-- Content Area -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="32dp">
+
+        <TextView
+            android:id="@+id/tv_section_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/ej4_welcome"
+            android:textColor="#43A047"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_section_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ej4_welcome_message"
+            android:textSize="18sp"
+            android:textColor="#757575"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
