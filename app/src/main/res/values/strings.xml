@@ -6,6 +6,17 @@
     <string name="ej3_btn_text">Ejercicio 3</string>
     <string name="ej4_btn_text">Ejercicio 4</string>
     <string name="ej5_btn_text">Ejercicio 5</string>
+
+    <!-- Exercise 2 strings -->
+    <string name="ej2_q_fav_color">¿Cuál es tu color favorito?</string>
+    <string name="ej2_hint_color">Introduce tu color favorito</string>
+    <string name="ej2_cb_blue">¿Te gusta el color azul?</string>
+    <string name="ej2_q_green">¿Te gusta el color verde?</string>
+    <string name="ej2_rb_yes">Sí</string>
+    <string name="ej2_rb_no">No</string>
+    <string name="ej2_btn_send">Enviar</string>
+  
+  <!-- Exercise 1 strings -->
     <string name="ej1_textfield_nombre_hint">Nombre</string>
     <string name="ej1_title">Ejercicio 1: Formulario Básico</string>
     <string name="ej1_btn_submit_text">Enviar</string>
