@@ -10,7 +10,8 @@
     android:showDividers="middle"
     android:divider="@android:color/transparent"
     android:dividerHeight="32dp"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@android:color/white">
 
     <TextView
         android:id="@+id/tv_title"

@@ -27,26 +27,26 @@ class ActivityEj2 : AppCompatActivity() {
             val selectedRadioId = rgGreen.checkedRadioButtonId
 
             if (favColor.isEmpty()) {
-                Toast.makeText(this, "Por favor, introduce tu color favorito", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, getString(R.string.ej2_error_color_empty), Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
 
             if (selectedRadioId == -1) {
-                Toast.makeText(this, "Por favor, responde si te gusta el color verde", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, getString(R.string.ej2_error_green_unanswered), Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
 
             val selectedRadio = findViewById<RadioButton>(selectedRadioId)
             val likesGreen = selectedRadio.id == R.id.rb_ej2_yes
 
-            val message = buildString {
-                append("Te gusta: $favColor")
-                if (likesBlue) append(", azul")
-                if (likesGreen) append(", verde")
-            }
+            val parts = mutableListOf<String>()
+            parts += getString(R.string.ej2_result_prefix)
+            parts += favColor
+            if (likesBlue) parts += getString(R.string.ej2_result_blue)
+            if (likesGreen) parts += getString(R.string.ej2_result_green)
+            val message = parts.joinToString(", ")
 
             Toast.makeText(this, message, Toast.LENGTH_LONG).show()
         }
     }
 }
-

@@ -26,6 +26,7 @@
     <string name="ej5_changes_saved">Cambios guardados</string>
     <string name="ej5_error_empty">Por favor, escribe una tarea</string>
     <string name="ej5_completed_mark">✓</string>
+    <string name="ej5_task_list_scroll">Lista de tareas (desplazable)</string>
 
     <!-- Exercise 4 strings -->
     <string name="ej4_title">Menú de Navegación</string>
@@ -37,6 +38,7 @@
     <string name="ej4_section_settings">Has seleccionado: Configuración</string>
     <string name="ej4_welcome">Bienvenido</string>
     <string name="ej4_welcome_message">Selecciona una opción del menú</string>
+
     <!-- Exercise 2 strings -->
     <string name="ej2_q_fav_color">¿Cuál es tu color favorito?</string>
     <string name="ej2_hint_color">Introduce tu color favorito</string>
@@ -45,6 +47,11 @@
     <string name="ej2_rb_yes">Sí</string>
     <string name="ej2_rb_no">No</string>
     <string name="ej2_btn_send">Enviar</string>
+    <string name="ej2_error_color_empty">Por favor, introduce tu color favorito</string>
+    <string name="ej2_error_green_unanswered">Por favor, responde si te gusta el color verde</string>
+    <string name="ej2_result_prefix">Te gusta:</string>
+    <string name="ej2_result_blue">azul</string>
+    <string name="ej2_result_green">verde</string>
 
     <!-- Exercise 3 strings -->
     <string name="ej3_title">Lista de Tareas</string>
@@ -56,8 +63,6 @@
     <string name="ej3_task_added">Tarea agregada</string>
     <string name="ej3_task_deleted">Tarea eliminada</string>
     <string name="ej3_task_list_scroll">Lista de tareas desplazable</string>
-    <string name="ej3_task_list_scroll">Lista de tareas desplazable</string>
-    <string name="ej5_task_list_scroll">Lista de tareas (desplazable)</string>
   
   <!-- Exercise 1 strings -->
     <string name="ej1_textfield_nombre_hint">Nombre</string>

@@ -22,7 +22,8 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_marginBottom="16dp"
-        android:gravity="center">
+        android:gravity="center"
+        android:background="@color/white">
 
         <EditText
             android:id="@+id/et_new_task"
@@ -71,7 +72,8 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:contentDescription="@string/ej3_task_list_scroll">
+        android:contentDescription="@string/ej3_task_list_scroll"
+        android:background="@color/white">
 
         <LinearLayout
             android:id="@+id/ll_task_list"
@@ -80,8 +82,8 @@
             android:orientation="vertical"
             android:divider="@android:color/transparent"
             android:showDividers="middle"
-            android:dividerHeight="8dp" />
+            android:dividerHeight="8dp"
+            android:background="@color/white" />
     </ScrollView>
 
 </LinearLayout>
-

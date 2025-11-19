@@ -1,10 +1,8 @@
 package sami.pmm.ud45_ej1
 
-import android.content.ActivityNotFoundException
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
-import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -21,22 +19,10 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        // Wire buttons programmatically to avoid missing-method lint warnings
-        findViewById<Button>(R.id.btn_ej1).setOnClickListener { openActivityByName("ActivityEj1") }
-        findViewById<Button>(R.id.btn_ej2).setOnClickListener { openActivityByName("ActivityEj2") }
-        findViewById<Button>(R.id.btn_ej3).setOnClickListener { openActivityByName("ActivityEj3") }
-        findViewById<Button>(R.id.btn_ej4).setOnClickListener { openActivityByName("ActivityEj4") }
-        findViewById<Button>(R.id.btn_ej5).setOnClickListener { openActivityByName("ActivityEj5") }
-    }
-
-    private fun openActivityByName(simpleName: String) {
-        val fullName = "$packageName.$simpleName"
-        val intent = Intent()
-        intent.setClassName(this, fullName)
-        try {
-            startActivity(intent)
-        } catch (_: ActivityNotFoundException) {
-            Toast.makeText(this, "Activity '$simpleName' not found", Toast.LENGTH_SHORT).show()
-        }
+        findViewById<Button>(R.id.btn_ej1).setOnClickListener { startActivity(Intent(this, ActivityEj1::class.java)) }
+        findViewById<Button>(R.id.btn_ej2).setOnClickListener { startActivity(Intent(this, ActivityEj2::class.java)) }
+        findViewById<Button>(R.id.btn_ej3).setOnClickListener { startActivity(Intent(this, ActivityEj3::class.java)) }
+        findViewById<Button>(R.id.btn_ej4).setOnClickListener { startActivity(Intent(this, ActivityEj4::class.java)) }
+        findViewById<Button>(R.id.btn_ej5).setOnClickListener { startActivity(Intent(this, ActivityEj5::class.java)) }
     }
 }
