@@ -6,4 +6,15 @@
     <string name="ej3_btn_text">Ejercicio 3</string>
     <string name="ej4_btn_text">Ejercicio 4</string>
     <string name="ej5_btn_text">Ejercicio 5</string>
+
+    <!-- Exercise 4 strings -->
+    <string name="ej4_title">Menú de Navegación</string>
+    <string name="ej4_btn_home">Inicio</string>
+    <string name="ej4_btn_profile">Perfil</string>
+    <string name="ej4_btn_settings">Configuración</string>
+    <string name="ej4_section_home">Has seleccionado: Inicio</string>
+    <string name="ej4_section_profile">Has seleccionado: Perfil</string>
+    <string name="ej4_section_settings">Has seleccionado: Configuración</string>
+    <string name="ej4_welcome">Bienvenido</string>
+    <string name="ej4_welcome_message">Selecciona una opción del menú</string>
 </resources>
