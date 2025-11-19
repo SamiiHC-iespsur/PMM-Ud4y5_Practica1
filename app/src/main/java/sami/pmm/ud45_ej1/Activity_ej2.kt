@@ -22,7 +22,7 @@ class ActivityEj2 : AppCompatActivity() {
         val btnSend = findViewById<Button>(R.id.btn_ej2_send)
 
         btnSend.setOnClickListener {
-            val favColor = etFavColor.text.toString()
+            val favColor = etFavColor.text.toString().lowercase()
             val likesBlue = cbLikeBlue.isChecked
             val selectedRadioId = rgGreen.checkedRadioButtonId
 
