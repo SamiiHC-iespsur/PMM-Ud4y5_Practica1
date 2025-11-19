@@ -20,6 +20,11 @@
             </intent-filter>
         </activity>
       
+        <!-- Activity for exercise 5 -->
+        <activity
+            android:name=".ActivityEj5"
+            android:exported="false" />
+      
         <!-- Activity for exercise 4 -->
         <activity
             android:name=".ActivityEj4"

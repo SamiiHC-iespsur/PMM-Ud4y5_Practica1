@@ -7,6 +7,26 @@
     <string name="ej4_btn_text">Ejercicio 4</string>
     <string name="ej5_btn_text">Ejercicio 5</string>
 
+    <!-- Exercise 5 strings -->
+    <string name="ej5_app_name">Gestor de Tareas</string>
+    <string name="ej5_nav_tasks">Tareas</string>
+    <string name="ej5_nav_completed">Completadas</string>
+    <string name="ej5_nav_pending">Pendientes</string>
+    <string name="ej5_hint_new_task">Escribe una nueva tarea</string>
+    <string name="ej5_btn_add">Agregar Tarea</string>
+    <string name="ej5_btn_save">Guardar Cambios</string>
+    <string name="ej5_btn_complete">Completar</string>
+    <string name="ej5_btn_delete">Eliminar</string>
+    <string name="ej5_empty_all">No hay tareas. ¡Agrega una nueva!</string>
+    <string name="ej5_empty_completed">No hay tareas completadas</string>
+    <string name="ej5_empty_pending">No hay tareas pendientes</string>
+    <string name="ej5_task_added">Tarea agregada</string>
+    <string name="ej5_task_deleted">Tarea eliminada</string>
+    <string name="ej5_task_completed">Tarea completada</string>
+    <string name="ej5_changes_saved">Cambios guardados</string>
+    <string name="ej5_error_empty">Por favor, escribe una tarea</string>
+    <string name="ej5_completed_mark">✓</string>
+
     <!-- Exercise 4 strings -->
     <string name="ej4_title">Menú de Navegación</string>
     <string name="ej4_btn_home">Inicio</string>
@@ -36,6 +56,8 @@
     <string name="ej3_task_added">Tarea agregada</string>
     <string name="ej3_task_deleted">Tarea eliminada</string>
     <string name="ej3_task_list_scroll">Lista de tareas desplazable</string>
+    <string name="ej3_task_list_scroll">Lista de tareas desplazable</string>
+    <string name="ej5_task_list_scroll">Lista de tareas (desplazable)</string>
   
   <!-- Exercise 1 strings -->
     <string name="ej1_textfield_nombre_hint">Nombre</string>
