@@ -19,9 +19,32 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+      
+        <!-- Activity for exercise 5 -->
         <activity
             android:name=".ActivityEj5"
             android:exported="false" />
+      
+        <!-- Activity for exercise 4 -->
+        <activity
+            android:name=".ActivityEj4"
+            android:exported="false" />
+      
+        <!-- Activity for exercise 3 -->
+        <activity
+            android:name=".ActivityEj3"
+            android:exported="false" />
+        
+        <!-- Activity for exercise 2 -->
+        <activity>
+            android:name=".ActivityEj2"
+            android:exported="false" />
+
+        <!-- Activity for exercise 1 -->
+        <activity
+            android:name=".ActivityEj1"
+            android:exported="false" />
+
     </application>
 
 </manifest>
